@@ -3,8 +3,6 @@ export function Form({ handleAddItem }) {
   const [quantity, setQuantity] = useState(1);
   const [description, setDescription] = useState("");
 
-  // console.log(items);
-
   function handleSubmit(e) {
     e.preventDefault();
 
